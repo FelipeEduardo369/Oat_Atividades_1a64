@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8306E861-9E9B-4B8D-88D0-DC35FF71A0F5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Oat_Atividades_1a64</RootNamespace>
+    <AssemblyName>Oat_Atividades_1a64</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atividade001.cs" />
+    <Compile Include="Atividade002.cs" />
+    <Compile Include="Atividade012.cs" />
+    <Compile Include="Atividade004.cs" />
+    <Compile Include="Atividade005.cs" />
+    <Compile Include="Atividade006.cs" />
+    <Compile Include="Atividade007.cs" />
+    <Compile Include="Atividade008.cs" />
+    <Compile Include="Atividade009.cs" />
+    <Compile Include="Atividade010.cs" />
+    <Compile Include="Atividade011.cs" />
+    <Compile Include="Atividade013.cs" />
+    <Compile Include="Atividade014.cs" />
+    <Compile Include="Atividade015.cs" />
+    <Compile Include="Atividade016.cs" />
+    <Compile Include="Atividade017.cs" />
+    <Compile Include="Atividade018.cs" />
+    <Compile Include="Atividade019.cs" />
+    <Compile Include="Atividade020.cs" />
+    <Compile Include="Atividade021.cs" />
+    <Compile Include="Atividade022.cs" />
+    <Compile Include="Atividade023.cs" />
+    <Compile Include="Atividade024.cs" />
+    <Compile Include="Atividade025.cs" />
+    <Compile Include="Atividade026.cs" />
+    <Compile Include="Atividade027.cs" />
+    <Compile Include="Atividade028.cs" />
+    <Compile Include="Atividade029.cs" />
+    <Compile Include="Atividade030.cs" />
+    <Compile Include="Atividade031.cs" />
+    <Compile Include="Atividade032.cs" />
+    <Compile Include="Atividade033.cs" />
+    <Compile Include="Atividade034.cs" />
+    <Compile Include="Atividade035.cs" />
+    <Compile Include="Atividade036.cs" />
+    <Compile Include="Atividade038.cs" />
+    <Compile Include="Atividade039.cs" />
+    <Compile Include="Atividade040.cs" />
+    <Compile Include="Atividade041.cs" />
+    <Compile Include="Atividade042.cs" />
+    <Compile Include="Atividade043.cs" />
+    <Compile Include="Atividade044.cs" />
+    <Compile Include="Atividade045.cs" />
+    <Compile Include="Atividade046.cs" />
+    <Compile Include="Atividade047.cs" />
+    <Compile Include="Atividade048.cs" />
+    <Compile Include="Atividade049.cs" />
+    <Compile Include="Atividade050.cs" />
+    <Compile Include="Atividade051.cs" />
+    <Compile Include="Atividade052.cs" />
+    <Compile Include="Atividade053.cs" />
+    <Compile Include="Atividade054.cs" />
+    <Compile Include="Atividade055.cs" />
+    <Compile Include="Atividade056.cs" />
+    <Compile Include="Atividade057.cs" />
+    <Compile Include="Atividade058.cs" />
+    <Compile Include="Atividade059.cs" />
+    <Compile Include="Atividade062.cs" />
+    <Compile Include="Atividade061.cs" />
+    <Compile Include="Atividade063.cs" />
+    <Compile Include="Atividade064.cs" />
+    <Compile Include="Atividade060.cs" />
+    <Compile Include="Atividade037,.cs" />
+    <Compile Include="Atividade003.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
